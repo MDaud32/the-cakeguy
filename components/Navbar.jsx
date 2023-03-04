@@ -5,15 +5,13 @@ import Logo from "../public/birdlogo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-transparent flex flex-col md:absolute  md:w-60  ">
-      <aside className="md:w-64 w-full  left-0 top-0  p-10 flex flex-col text-center ">
-        <Link href="/">
-          <Image
-            src={Logo}
-            alt="bird logo"
-            className="w-24 mx-auto mb-4   hover:-rotate-6 duration-200"
-          />
-        </Link>
+    <div className="flex flex-col md:flex-row ">
+      <aside className="md:w-72 h-screen w-full left-0 top-0 md:left-50 md:top-50  p-10 flex flex-col text-center ">
+        <Image
+          src={Logo}
+          alt="bird logo"
+          className="w-24 mx-auto mb-4   hover:-rotate-6 duration-200"
+        />
         <div className="flex flex-col gap-3 w-40 mx-auto">
           <Link
             href="/About"
