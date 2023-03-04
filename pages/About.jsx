@@ -26,7 +26,7 @@ const About = () => {
           <h1 className="font-bold text-2xl text-center text-[#95AB60] italic">
             Hello?
           </h1>
-          <p className="text-[12px] mt-4 p-4 mx-auto text-gray-600">
+          <p className="mt-4 pr-4 mb-4 mx-auto text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
             I&apos;m Kristy, a Pennsylvania native who moved up to the beautiful
             snowy North Country in spring of 2017. I am a freelance illustrator
             who primarily works in watercolor, and Procreate. I also like to
@@ -46,44 +46,32 @@ const About = () => {
             <Image
               src={Dragon1}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md  object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon2}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon3}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon4}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon5}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon6}
               alt="about page img 1"
-              width={220}
-              height={200}
-              className="h-[200px] w-[220] rounded-md object-cover"
+              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
           </div>
           <div className="border-b border-gray-300 mt-8 mb-6 w-3/4 mx-auto"></div>
@@ -105,88 +93,94 @@ const About = () => {
           </h1>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className=" text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Sennelier l&apos;Aquarelle Watercolor Tubes
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">Sakura Micron Pens</p>
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              Sakura Micron Pens
+            </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Derwent Coloursoft Colored Pencils
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Prismacolor Col-Erase Pencils
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Strathmore 500 Series 140lb Hot Press Watercolor Paper
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Arches Aquarelle 140lb Hot Press Watercolor Paper
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Paul Rubens 140lb Hot Press Watercolor Paper (Glitter)
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Apple iPad Air 4th Generation
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Apple Pencil 2nd Generation
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">Procreate</p>
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              Procreate
+            </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               Daylight Wafer 2 Lightbox
             </p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">Tea</p>
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              Tea
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row-reverse mt-12 mb-10">
+      <div className="flex flex-col md:flex-col-reverse lg:flex-row-reverse  mt-12 mb-10">
         <Image
           src={Dragon8}
           alt="img"
           width={300}
           height={500}
-          className="w-full md:w-1/2 h-[470px] object-cover rounded-[30px] px-4"
+          className="w-full lg:w-1/2 h-[470px] mt-4 object-cover rounded-[30px] px-4"
         />
-        <div className="flex flex-col w-full md:w-1/2 px-4">
+        <div className="flex flex-col w-full lg:w-1/2 px-4">
           <h1 className="text-xl text-center tracking-widest mb-2 mt-4 md:mt-0">
             PROCESS
           </h1>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-gray-500 text-[12px]">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-normal md:leading-relaxed  md:text-left">
               Like with all art, it starts with an idea. These ideas are, for
               me, sketched out in Procreate typically. This allows me to adjust
               the image as much as I need to, whether it&apos;s for adjusting
