@@ -86,12 +86,12 @@ const About = () => {
               className="h-[200px] w-[200] rounded-sm"
             />
           </div>
-          <div className="border-b border-gray-300 mt-8 mb-6 w-1/2 mx-auto"></div>
+          <div className="border-b border-gray-300 mt-8 mb-6 w-3/4 mx-auto"></div>
           <SocialMediaIcons />
         </div>
       </div>
       {/* first card */}
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row mt-8">
         <Image
           src={Dragon7}
           alt="img"
