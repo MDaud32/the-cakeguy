@@ -48,42 +48,42 @@ const About = () => {
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm  object-cover"
+              className="h-[200px] w-[220] rounded-md  object-cover"
             />
             <Image
               src={Dragon2}
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm object-cover"
+              className="h-[200px] w-[220] rounded-md object-cover"
             />
             <Image
               src={Dragon3}
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm object-cover"
+              className="h-[200px] w-[220] rounded-md object-cover"
             />
             <Image
               src={Dragon4}
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm object-cover"
+              className="h-[200px] w-[220] rounded-md object-cover"
             />
             <Image
               src={Dragon5}
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm object-cover"
+              className="h-[200px] w-[220] rounded-md object-cover"
             />
             <Image
               src={Dragon6}
               alt="about page img 1"
               width={220}
               height={200}
-              className="h-[200px] w-[220] rounded-sm object-cover"
+              className="h-[200px] w-[220] rounded-md object-cover"
             />
           </div>
           <div className="border-b border-gray-300 mt-8 mb-6 w-3/4 mx-auto"></div>
@@ -97,7 +97,7 @@ const About = () => {
           alt="img"
           width={400}
           height={200}
-          className="w-full md:w-1/2 h-[270px] object-cover rounded-lg px-4"
+          className="w-full md:w-1/2 h-[270px] object-cover rounded-[30px] px-4"
         />
         <div className="flex flex-col w-full md:w-1/2 px-4">
           <h1 className="text-xl text-center tracking-widest  mb-2">
@@ -178,7 +178,7 @@ const About = () => {
           alt="img"
           width={300}
           height={500}
-          className="w-full md:w-1/2 h-[470px] object-cover rounded-lg px-4"
+          className="w-full md:w-1/2 h-[470px] object-cover rounded-[30px] px-4"
         />
         <div className="flex flex-col w-full md:w-1/2 px-4">
           <h1 className="text-xl text-center tracking-widest mb-2 mt-4 md:mt-0">
@@ -220,7 +220,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <ScrollButton />
+      <div className="md:-ml-56">
+        <ScrollButton />
+      </div>
     </div>
   );
 };
