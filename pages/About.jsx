@@ -14,7 +14,7 @@ import Dragon8 from "../public/dragon8.jpg";
 
 const About = () => {
   return (
-    <div className="md:w-[80%] ml-auto">
+    <div className="md:w-[75%] lg:w-[80%] ml-auto">
       <div className="flex flex-col md:flex-row pt-10">
         {/* about me */}
         <div className="w-full md:w-[35%] ">
