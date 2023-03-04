@@ -17,11 +17,12 @@ const ScrollButton = () => {
       behavior: "smooth",
     });
   };
-  window.addEventListener("scroll", toggleVisible);
+  // window.addEventListener("scroll", toggleVisible);
   return (
     <div className="flex cursor-pointer text-4xl items-center justify-center my-12 text-[#95AB60] hover:text-[#819454] hover:text-[38px] duration-300">
       <FaArrowUp onClick={scrollToTop} />
     </div>
   );
 };
+
 export default ScrollButton;
