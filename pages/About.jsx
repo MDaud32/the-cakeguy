@@ -42,48 +42,48 @@ const About = () => {
         </div>
         {/* videos */}
         <div className="w-full md:w-[65%] px-2 ">
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             <Image
               src={Dragon1}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm  object-cover"
             />
             <Image
               src={Dragon2}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm object-cover"
             />
             <Image
               src={Dragon3}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm object-cover"
             />
             <Image
               src={Dragon4}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm object-cover"
             />
             <Image
               src={Dragon5}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm object-cover"
             />
             <Image
               src={Dragon6}
               alt="about page img 1"
-              width={200}
+              width={220}
               height={200}
-              className="h-[200px] w-[200] rounded-sm"
+              className="h-[200px] w-[220] rounded-sm object-cover"
             />
           </div>
           <div className="border-b border-gray-300 mt-8 mb-6 w-3/4 mx-auto"></div>
