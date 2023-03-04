@@ -14,7 +14,7 @@ import Dragon8 from "../public/dragon8.jpg";
 
 const About = () => {
   return (
-    <div className="md:w-[73%] lg:w-[80%] ml-auto">
+    <div className="md:w-[73%] lg:w-[80%] ml-auto sm:px-8 lg:px-16">
       <div className="flex flex-col md:flex-row pt-20">
         {/* about me */}
         <div className="w-full md:w-[35%] ">
@@ -41,7 +41,7 @@ const About = () => {
           </p>
         </div>
         {/* videos */}
-        <div className="w-full md:w-[65%] px-2 ">
+        <div className="w-full md:w-[65%] px-2">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             <Image
               src={Dragon1}

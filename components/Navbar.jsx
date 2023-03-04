@@ -5,7 +5,7 @@ import Logo from "../public/birdlogo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col md:flex-row md:absolute ">
+    <div className="flex flex-col md:flex-row md:absolute">
       <aside className="md:w-64 left-0 top-0 md:left-50 md:top-50 md:p-10 mt-10 md:mt-0 flex flex-col text-center">
         <Link href="/">
           <Image
