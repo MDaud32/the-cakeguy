@@ -14,8 +14,8 @@ import Dragon8 from "../public/dragon8.jpg";
 
 const About = () => {
   return (
-    <div className="md:w-[75%] lg:w-[80%] ml-auto">
-      <div className="flex flex-col md:flex-row pt-10">
+    <div className="md:w-[73%] lg:w-[80%] ml-auto">
+      <div className="flex flex-col md:flex-row pt-20">
         {/* about me */}
         <div className="w-full md:w-[35%] ">
           <Image
@@ -86,7 +86,7 @@ const About = () => {
               className="h-[200px] w-[200] rounded-sm"
             />
           </div>
-          <div className="border-b-2 border-gray-300 mt-8 mb-6"></div>
+          <div className="border-b border-gray-300 mt-8 mb-6 w-1/2 mx-auto"></div>
           <SocialMediaIcons />
         </div>
       </div>
