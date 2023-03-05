@@ -5,6 +5,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Portfolio = () => {
   let [isOpen, setIsOpen] = useState(false);
@@ -113,147 +114,147 @@ const Portfolio = () => {
         <Image
           src={"/images/image1.jpg"}
           onClick={Img1}
-          width={200}
+          width={300}
           height={200}
           alt="img gallery"
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
 
         <Image
           src={"/images/image2.jpg"}
           onClick={Img2}
-          width={200}
+          width={300}
           height={200}
           alt="img gallery"
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           src={"/images/image3.jpg"}
           onClick={Img3}
-          width={200}
+          width={300}
           height={200}
           alt="img gallery"
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img4}
           src={"/images/image4.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img5}
           src={"/images/image5.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img6}
           src={"/images/image6.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img7}
           src={"/images/image7.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img8}
           src={"/images/image8.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img9}
           src={"/images/image9.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img10}
           src={"/images/image10.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img11}
           src={"/images/image11.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img12}
           src={"/images/image12.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img13}
           src={"/images/image13.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img14}
           src={"/images/image14.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img15}
           src={"/images/image15.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img16}
           src={"/images/image16.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img17}
           src={"/images/image17.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
         <Image
           onClick={Img18}
           src={"/images/image18.jpg"}
           alt="img gallery"
-          width={200}
+          width={300}
           height={200}
-          className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
+          className=" rounded-md object-cover w-full sm:w-[300px] transition-transform duration-500 transform-gpu hover:scale-105"
         />
       </div>
       <>
@@ -271,7 +272,7 @@ const Portfolio = () => {
             </Transition.Child> */}
 
             <div className="fixed inset-0 overflow-y-auto">
-              <div className="flex min-h-full items-center justify-center p-4 text-center">
+              <div className="flex min-h-full items-center justify-center  text-center">
                 <Transition.Child
                   as={Fragment}
                   enter="ease-out duration-300"
@@ -280,35 +281,39 @@ const Portfolio = () => {
                   leave="ease-in duration-200"
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95">
-                  <Dialog.Panel className="w-full transform overflow-hidden rounded-2xl bg-black/50 p-2 text-left align-middle shadow-xl transition-all">
-                    <Carousel
-                      showThumbs={false}
-                      className="flex flex-row relative ">
-                      <div className="flex flex-row justify-center">
-                        <button
-                          disabled={prevDisabled}
-                          onClick={switchPrev}
-                          className={
-                            "hover:bg-black/60 disabled:bg-gray-100 py-4 px-2 absolute text-3xl mr-[22rem] mt-[13rem]"
-                          }>
-                          <MdNavigateBefore />
-                        </button>
-                        <Image
-                          src={`/images/image${image}.jpg`}
-                          width={400}
-                          height={200}
-                          alt="green iguana"
-                        />
-                        <button
-                          disabled={nextDisabled}
-                          className={
-                            "hover:bg-black/60 py-4 px-2 disabled:bg-gray-100 absolute text-3xl ml-[22rem] mt-[13rem]"
-                          }
-                          onClick={switchNext}>
-                          <MdNavigateNext />
-                        </button>
-                      </div>
-                    </Carousel>
+                  <Dialog.Panel className="w-full  h-screen transform overflow-hidden bg-black/50 text-left align-middle shadow-xl transition-all ">
+                    <button
+                      onClick={() => setIsOpen(false)}
+                      className="text-white text-4xl flex ml-auto p-10">
+                      <AiOutlineClose />
+                    </button>
+                    <div className={"flex justify-between"}>
+                      <button
+                        disabled={prevDisabled}
+                        onClick={switchPrev}
+                        className={""}>
+                        <MdNavigateBefore size={"32"} />
+                      </button>
+                      <Carousel
+                        showThumbs={false}
+                        className="flex flex-row relative ">
+                        <div className="flex flex-row justify-center">
+                          <Image
+                            src={`/images/image${image}.jpg`}
+                            width={400}
+                            height={200}
+                            className={"object-cover w-[700px] h-[500px]"}
+                            alt="green iguana"
+                          />
+                        </div>
+                      </Carousel>
+                      <button
+                        disabled={nextDisabled}
+                        className={""}
+                        onClick={switchNext}>
+                        <MdNavigateNext size={"32"} />
+                      </button>
+                    </div>
                   </Dialog.Panel>
                 </Transition.Child>
               </div>
@@ -316,7 +321,9 @@ const Portfolio = () => {
           </Dialog>
         </Transition>
       </>
-      <ScrollButton />
+      <div className="md:-ml-56">
+        <ScrollButton />
+      </div>{" "}
     </div>
   );
 };
