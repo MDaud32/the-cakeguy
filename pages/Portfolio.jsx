@@ -276,8 +276,8 @@ const Portfolio = () => {
                       <button
                         disabled={prevDisabled}
                         onClick={switchPrev}
-                        className={"text-white"}>
-                        <MdNavigateBefore size={"32"} />
+                        className="text-white disabled:text-red-400">
+                        <MdNavigateBefore size={"40"} />
                       </button>
 
                       <div className="flex flex-row justify-center">
@@ -292,9 +292,9 @@ const Portfolio = () => {
 
                       <button
                         disabled={nextDisabled}
-                        className={"text-white"}
+                        className="text-white disabled:text-red-400"
                         onClick={switchNext}>
-                        <MdNavigateNext size={"32"} />
+                        <MdNavigateNext size={"40"} />
                       </button>
                     </div>
                   </Dialog.Panel>
