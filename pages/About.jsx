@@ -91,76 +91,64 @@ const About = () => {
           <h1 className="text-xl text-center tracking-widest  mb-2">
             ART TOOLS
           </h1>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className=" text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Sennelier l&apos;Aquarelle Watercolor Tubes
+          <div className="flex flex-row  gap-2">
+            <p className=" text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left ">
+              &#x2022; Sennelier l&apos;Aquarelle Watercolor Tubes
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Sakura Micron Pens
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Sakura Micron Pens
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Derwent Coloursoft Colored Pencils
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Derwent Coloursoft Colored Pencils
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Prismacolor Col-Erase Pencils
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Prismacolor Col-Erase Pencils
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Strathmore 500 Series 140lb Hot Press Watercolor Paper
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Strathmore 500 Series 140lb Hot Press Watercolor Paper
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Arches Aquarelle 140lb Hot Press Watercolor Paper
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Arches Aquarelle 140lb Hot Press Watercolor Paper
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Paul Rubens 140lb Hot Press Watercolor Paper (Glitter)
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Paul Rubens 140lb Hot Press Watercolor Paper (Glitter)
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Apple iPad Air 4th Generation
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Apple iPad Air 4th Generation
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Apple Pencil 2nd Generation
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Apple Pencil 2nd Generation
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Procreate
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Procreate
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Daylight Wafer 2 Lightbox
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Daylight Wafer 2 Lightbox
             </p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
-              Tea
+          <div className="flex flex-row  gap-2">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+              &#x2022; Tea
             </p>
           </div>
         </div>
