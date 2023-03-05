@@ -48,6 +48,7 @@ const Portfolio = () => {
 
         <Image
           src={Image2}
+          onClick={openModal}
           alt="img gallery"
           className=" rounded-md transition-transform duration-500 transform-gpu hover:scale-105"
         />
@@ -162,12 +163,6 @@ const Portfolio = () => {
                       showThumbs={false}
                       onClickItem={handleOpen}>
                       <Image src={Image1} alt="green iguana" />
-                      <Image src={Image2} alt="green iguana" />
-                      <Image src={Image3} alt="green iguana" />
-                      <Image src={Image4} alt="green iguana" />
-                      <Image src={Image5} alt="green iguana" />
-                      <Image src={Image6} alt="green iguana" />
-                      <Image src={Image7} alt="green iguana" />
                     </Carousel>
                   </Dialog.Panel>
                 </Transition.Child>
@@ -182,3 +177,78 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+const data = [
+  {
+    id: 1,
+    imgUrl: "/images/image1.jpg",
+  },
+  {
+    id: 2,
+    imgUrl: "/images/image2.jpg",
+  },
+  {
+    id: 3,
+    imgUrl: "/images/image3.jpg",
+  },
+  {
+    id: 4,
+    imgUrl: "/images/image4.jpg",
+  },
+  {
+    id: 5,
+    imgUrl: "/images/image5.jpg",
+  },
+  {
+    id: 6,
+    imgUrl: "/images/image6.jpg",
+  },
+  {
+    id: 7,
+    imgUrl: "/images/image7.jpg",
+  },
+  {
+    id: 8,
+    imgUrl: "/images/image8.jpg",
+  },
+  {
+    id: 9,
+    imgUrl: "/images/image9.jpg",
+  },
+  {
+    id: 10,
+    imgUrl: "/images/image10.jpg",
+  },
+  {
+    id: 11,
+    imgUrl: "/images/image11.jpg",
+  },
+  {
+    id: 12,
+    imgUrl: "/images/image12.jpg",
+  },
+  {
+    id: 13,
+    imgUrl: "/images/image13.jpg",
+  },
+  {
+    id: 14,
+    imgUrl: "/images/image14.jpg",
+  },
+  {
+    id: 15,
+    imgUrl: "/images/image15.jpg",
+  },
+  {
+    id: 16,
+    imgUrl: "/images/image16.jpg",
+  },
+  {
+    id: 17,
+    imgUrl: "/images/image17.jpg",
+  },
+  {
+    id: 18,
+    imgUrl: "/images/image18.jpg",
+  },
+];
