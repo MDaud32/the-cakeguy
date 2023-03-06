@@ -1,3 +1,4 @@
+import ScrollButton from "@/components/ScrollTop";
 import React from "react";
 
 const TermsOfService = () => {
@@ -232,6 +233,9 @@ const TermsOfService = () => {
           &#x2022; If fault lies with the commissioner, they are held
           responsible for the shipping fee.
         </p>
+      </div>
+      <div className="md:-ml-56">
+        <ScrollButton />
       </div>
     </div>
   );

@@ -4,25 +4,25 @@ export default async function handler(req, res) {
   // Check that the request method is POST
   if (req.method === "POST") {
     // Get the contact form data from the request body
-    const { name, email, message } = req.body;
+    const { name, email, message, subject } = req.body;
 
     // Create a transporter object to send the email
     const transporter = nodemailer.createTransport({
-      host: "smtp.example.com", // replace with your SMTP server host
-      port: 587, // replace with your SMTP server port
-      secure: false, // true for 465, false for other ports
+      service: "Gmail",
+      port: 465,
       auth: {
-        user: "username", // replace with your SMTP username
-        pass: "password", // replace with your SMTP password
+        user: "portfoliowaheed@gmail.com",
+        pass: "upiyuzdwsondjraz",
       },
+      secure: true,
     });
 
     try {
       // Send the email
       await transporter.sendMail({
         from: "Your Name <yourname@example.com>", // replace with your name and email address
-        to: "recipient@example.com", // replace with the recipient's email address
-        subject: "New contact form submission",
+        to: "portfoliowaheed@gmail.com", // replace with the recipient's email address
+        subject: `${subject}`,
         html: `<p><strong>Name:</strong> ${name}</p>
                <p><strong>Email:</strong> ${email}</p>
                <p><strong>Message:</strong> ${message}</p>`,
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
       // Return a success response
       res.status(200).json({ message: "Email sent successfully" });
     } catch (error) {
-      // Return an error response
+      console.log(error);
       res
         .status(500)
         .json({ message: "An error occurred while sending the email" });

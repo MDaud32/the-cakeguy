@@ -30,66 +30,52 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="md:w-[73%] lg:w-[80%] ml-auto sm:px-8 lg:px-16">
+      className="md:w-[73%] lg:w-[96] ml-auto sm:px-8 lg:px-16 mt-8 flex justify-center flex-col">
+      <h1 className={"text-2xl mb-2 font-bold italic"}>Get in touch!</h1>
       <div className="mb-4">
-        <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
-          Name
-        </label>
         <input
           id="name"
           type="text"
           value={name}
           onChange={(event) => setName(event.target.value)}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
 
       <div className="mb-4">
-        <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
-          Email
-        </label>
         <input
           id="email"
           type="email"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
 
       <div className="mb-4">
-        <label htmlFor="subject" className="block text-gray-700 font-bold mb-2">
-          Subject
-        </label>
         <input
           id="subject"
           type="text"
           value={subject}
           onChange={(event) => setSubject(event.target.value)}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
 
       <div className="mb-4">
-        <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
-          Message
-        </label>
         <textarea
           id="message"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           rows="6"
         />
       </div>
-
-      <div className="flex items-center justify-center">
-        <button
-          type="submit"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-          Submit
-        </button>
-      </div>
+      <button
+        type="submit"
+        className="bg-blue-500 w-96 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        Submit
+      </button>
 
       {status && <p className="text-center mt-4">{status}</p>}
     </form>
