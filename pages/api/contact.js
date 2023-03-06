@@ -1,43 +1,43 @@
-export default async function (req, res) {
-  require("dotenv").config();
+import nodemailer from "nodemailer";
 
-  let nodemailer = require("nodemailer");
-  const transporter = nodemailer.createTransport({
-    port: 465,
-    host: "smtp.gmail.com",
-    auth: {
-      user: process.env.email,
-      pass: process.env.password,
-    },
-    secure: true,
-  });
-  const mailData = {
-    from: "usmanasifdev@gmail.com",
-    to: "jusmanasif435@gmail.com",
-    subject: `Message From Usman Asif Dev`,
-    //   text: req.body.message + " | Sent from: " + req.body.email,
-    html: `
-    <div><strong>Name:</strong> ${req.body.fullName}</div>
-    <br/>
-    <div><strong>Email:</strong> ${req.body.email}</div>
-    <br/>
-    <div><strong>Phone:</strong> ${req.body.phone}</div>
-    <br/>
-    <div><strong>Message:</strong> ${req.body.message}</div>
-    <br/>
-    <p>Sent from:
-      ${req.body.email}</p>`,
-  };
-  await new Promise((resolve, reject) => {
-    transporter.sendMail(mailData, function (err, info) {
-      if (err) {
-        console.log(err);
-        reject(err);
-      } else {
-        console.log(info);
-        resolve(info);
-      }
+export default async function handler(req, res) {
+  // Check that the request method is POST
+  if (req.method === "POST") {
+    // Get the contact form data from the request body
+    const { name, email, message } = req.body;
+
+    // Create a transporter object to send the email
+    const transporter = nodemailer.createTransport({
+      host: "smtp.example.com", // replace with your SMTP server host
+      port: 587, // replace with your SMTP server port
+      secure: false, // true for 465, false for other ports
+      auth: {
+        user: "username", // replace with your SMTP username
+        pass: "password", // replace with your SMTP password
+      },
     });
-  });
-  res.status(200).json({ status: "OK" });
+
+    try {
+      // Send the email
+      await transporter.sendMail({
+        from: "Your Name <yourname@example.com>", // replace with your name and email address
+        to: "recipient@example.com", // replace with the recipient's email address
+        subject: "New contact form submission",
+        html: `<p><strong>Name:</strong> ${name}</p>
+               <p><strong>Email:</strong> ${email}</p>
+               <p><strong>Message:</strong> ${message}</p>`,
+      });
+
+      // Return a success response
+      res.status(200).json({ message: "Email sent successfully" });
+    } catch (error) {
+      // Return an error response
+      res
+        .status(500)
+        .json({ message: "An error occurred while sending the email" });
+    }
+  } else {
+    // Return a 405 Method Not Allowed error response for all other request methods
+    res.status(405).json({ message: "Method Not Allowed" });
+  }
 }
