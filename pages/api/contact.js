@@ -10,9 +10,10 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: "Gmail",
       port: 465,
+      host: "69.64.69.69",
       auth: {
-        user: "portfoliowaheed@gmail.com",
-        pass: "upiyuzdwsondjraz",
+        user: "contact@cakesserver.com",
+        pass: "34vS0bDaKanyqGBVQq",
       },
       secure: true,
     });
@@ -27,14 +28,15 @@ export default async function handler(req, res) {
                <p><strong>Email:</strong> ${email}</p>
                <p><strong>Message:</strong> ${message}</p>`,
       });
-
       // Return a success response
-      res.status(200).json({ message: "Email sent successfully" });
+      res
+        .status(200)
+        .json({ message: "message sent successfully", statusCode: 200 });
     } catch (error) {
       console.log(error);
       res
         .status(500)
-        .json({ message: "An error occurred while sending the email" });
+        .json({ message: "message sending failed", statusCode: 500 });
     }
   } else {
     // Return a 405 Method Not Allowed error response for all other request methods

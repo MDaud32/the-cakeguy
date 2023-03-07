@@ -26,7 +26,7 @@ const Navbar = () => {
             Portfolio
           </Link>
           <Link
-            href="#"
+            href="/Commission"
             className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             Commissions
           </Link>
