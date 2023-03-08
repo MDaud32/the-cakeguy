@@ -10,10 +10,9 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: "Gmail",
       port: 465,
-      host: "69.64.69.69",
       auth: {
-        user: "contact@cakesserver.com",
-        pass: "34vS0bDaKanyqGBVQq",
+        user: "artsiteplaceholder@gmail.com",
+        pass: "xuvgwxmzglnyxwcu",
       },
       secure: true,
     });
