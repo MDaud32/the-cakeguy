@@ -40,7 +40,9 @@ const ContactForm = () => {
       return toast.success("message sent successfully");
     }
     if (data.statusCode === 500) {
-      return toast.error("message sending failed");
+      return toast.error("message sending failed", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     }
   };
   return (
