@@ -26,7 +26,7 @@ const About = () => {
           <h1 className="font-bold text-2xl text-center text-[#95AB60] italic">
             Hello?
           </h1>
-          <p className="mt-4 pr-4 mb-4 mx-auto text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+          <p className="mt-4 pr-4 mb-4 mx-auto text-base md:text-xs lg:text-md xl:text-sm text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
             I&apos;m Kristy, a Pennsylvania native who moved up to the beautiful
             snowy North Country in spring of 2017. I am a freelance illustrator
             who primarily works in watercolor, and Procreate. I also like to
@@ -92,62 +92,62 @@ const About = () => {
             ART TOOLS
           </h1>
           <div className="flex flex-row  gap-2">
-            <p className=" text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left ">
+            <p className=" text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left ">
               &#x2022; Sennelier l&apos;Aquarelle Watercolor Tubes
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Sakura Micron Pens
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Derwent Coloursoft Colored Pencils
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Prismacolor Col-Erase Pencils
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Strathmore 500 Series 140lb Hot Press Watercolor Paper
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Arches Aquarelle 140lb Hot Press Watercolor Paper
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Paul Rubens 140lb Hot Press Watercolor Paper (Glitter)
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Apple iPad Air 4th Generation
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Apple Pencil 2nd Generation
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Procreate
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Daylight Wafer 2 Lightbox
             </p>
           </div>
           <div className="flex flex-row  gap-2">
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-left lg:text-left md:tracking-tighter md:leading-tight md:text-left">
               &#x2022; Tea
             </p>
           </div>
@@ -168,7 +168,7 @@ const About = () => {
           </h1>
           <div className="flex flex-row items-center gap-2">
             <div className="border-b-4 rounded-full w-1 border-gray-400"></div>
-            <p className="text-base md:text-xs lg:text-md xl:text-sm font-medium text-gray-500 tracking-wide text-center lg:text-left md:tracking-normal md:leading-relaxed  md:text-left">
+            <p className="text-base md:text-xs lg:text-md xl:text-sm  text-gray-500 tracking-wide text-center lg:text-left md:tracking-normal md:leading-relaxed  md:text-left">
               Like with all art, it starts with an idea. These ideas are, for
               me, sketched out in Procreate typically. This allows me to adjust
               the image as much as I need to, whether it&apos;s for adjusting

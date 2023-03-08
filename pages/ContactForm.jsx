@@ -40,9 +40,7 @@ const ContactForm = () => {
       return toast.success("message sent successfully");
     }
     if (data.statusCode === 500) {
-      return toast.error("message sending failed", {
-        position: toast.POSITION.TOP_RIGHT,
-      });
+      return toast.error("message sending failed");
     }
   };
   return (
@@ -162,7 +160,7 @@ const ContactForm = () => {
             }}
           </ErrorMessage>
         </p>
-        <div className="flex flex-col md:flex-row gap-2">
+        <div className="flex flex-col md:flex-row gap-2 mb-4 md:mb-0">
           {isSubmitting ? (
             <button
               type="submit"
