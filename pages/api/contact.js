@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       // Send the email
       await transporter.sendMail({
         from: "Your Name <yourname@example.com>", // replace with your name and email address
-        to: "portfoliowaheed@gmail.com", // replace with the recipient's email address
+        to: "artsiteplaceholder@gmail.com", // replace with the recipient's email address
         subject: `${subject}`,
         html: `<p><strong>Name:</strong> ${name}</p>
                <p><strong>Email:</strong> ${email}</p>
