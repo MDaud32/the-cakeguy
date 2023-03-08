@@ -285,7 +285,9 @@ const Portfolio = () => {
                           src={`/images/image${image}.jpg`}
                           width={400}
                           height={200}
-                          className={"object-cover w-[700px] h-[500px]"}
+                          className={
+                            "object-cover w-[700px] h-[500px] mt-12 md:mt-0"
+                          }
                           alt="green iguana"
                         />
                       </div>
