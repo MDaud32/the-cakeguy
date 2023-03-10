@@ -2,8 +2,34 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/birdlogo.png";
+import { useTheme } from "next-themes";
 
 const Navbar = () => {
+  const { systemTheme, theme, setTheme } = useTheme();
+
+  const renderThemeChanger = () => {
+    const currentTheme = theme === "system" ? systemTheme : theme;
+
+    if (currentTheme === "dark") {
+      return (
+        <button
+          className="w-full h-4 text-yellow-500 "
+          role="button"
+          onClick={() => setTheme("light")}>
+          Light Mode
+        </button>
+      );
+    } else {
+      return (
+        <button
+          className="w-full h-4 text-gray-900 "
+          role="button"
+          onClick={() => setTheme("dark")}>
+          Dark Mode
+        </button>
+      );
+    }
+  };
   return (
     <div className="flex flex-col md:flex-row md:absolute">
       <aside className="md:w-50 lg:w-54 left-0 top-0 md:left-50 md:top-50 md:p-10 mt-10 md:mt-0 flex flex-col text-center">
@@ -45,6 +71,9 @@ const Navbar = () => {
             className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             Contact
           </Link>
+          <button className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm w-full">
+            {renderThemeChanger()}
+          </button>
         </div>
       </aside>
     </div>
