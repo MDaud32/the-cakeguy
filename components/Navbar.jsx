@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/birdlogo.png";
 import { useTheme } from "next-themes";
+import { BsSunFill, BsMoonFill } from "react-icons/bs";
 
 const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -13,7 +14,7 @@ const Navbar = () => {
     if (currentTheme === "dark") {
       return (
         <button
-          className="w-full h-4 text-yellow-500 "
+          className="w-full h-4 text-gray-400 "
           role="button"
           onClick={() => setTheme("light")}>
           Light Mode
@@ -22,8 +23,8 @@ const Navbar = () => {
     } else {
       return (
         <button
-          className="w-full h-4 text-gray-900 "
-          role="button"
+          className="w-full h-4 text-gray-400 "
+          role="link"
           onClick={() => setTheme("dark")}>
           Dark Mode
         </button>
@@ -71,9 +72,11 @@ const Navbar = () => {
             className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             Contact
           </Link>
-          <button className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm w-full">
+          <Link
+            href="#"
+            className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             {renderThemeChanger()}
-          </button>
+          </Link>
         </div>
       </aside>
     </div>
