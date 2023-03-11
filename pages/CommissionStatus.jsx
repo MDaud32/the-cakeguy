@@ -20,12 +20,6 @@ const customStyles = {
       backgroundPosition: "-19px -19px",
     },
   },
-  // cells: {
-  //   style: {
-  //     paddingLeft: "8px", // override the cell padding for data cells
-  //     paddingRight: "8px",
-  //   },
-  // },
 };
 
 const CommissionStatus = () => {
