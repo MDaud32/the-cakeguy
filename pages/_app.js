@@ -21,7 +21,7 @@ export default function App({ Component, pageProps, router }) {
             opacity: 1,
             x: 0,
             transition: {
-              duration: 1,
+              duration: 0.3,
               ease: [0.16, 1, 0.3, 1], // custom easing
             },
           },
@@ -29,7 +29,7 @@ export default function App({ Component, pageProps, router }) {
             opacity: 0,
             x: 50,
             transition: {
-              duration: 1,
+              duration: 0.3,
               ease: [0.16, 1, 0.3, 1], // custom easing
             },
           },
