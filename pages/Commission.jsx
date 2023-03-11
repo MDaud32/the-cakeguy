@@ -255,7 +255,11 @@ const Commission = () => {
       </div>
       <div className="flex flex-col md:flex-row mt-4">
         <div className="w-1/2 md:w-[30%] mx-auto">
-          <Image src={logo2} alt="logo" className="w-36 items-center" />
+          <Image
+            src={logo2}
+            alt="logo"
+            className="w-36 items-center hover:-rotate-6 duration-300"
+          />
         </div>
         <div className="w-1/2 md:w-[35%] mx-auto mb-8 md:mb-0">
           <h1 className="text-xl text-gray-500 text-left">What I can do</h1>
