@@ -6,20 +6,20 @@ const customStyles = {
   rows: {
     style: {
       minHeight: "30px",
-      // backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
-      // backgroundSize: "28px 28px",
-      // backgroundPosition: "-19px -19px",
+      backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
+      backgroundSize: "28px 28px",
+      backgroundPosition: "-19px -19px",
       fontSize: "11px",
     },
   },
 
-  // headCells: {
-  //   style: {
-  //     backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
-  //     backgroundSize: "28px 28px",
-  //     backgroundPosition: "-19px -19px",
-  //   },
-  // },
+  headCells: {
+    style: {
+      backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
+      backgroundSize: "28px 28px",
+      backgroundPosition: "-19px -19px",
+    },
+  },
   // cells: {
   //   style: {
   //     paddingLeft: "8px", // override the cell padding for data cells
