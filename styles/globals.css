@@ -55,6 +55,7 @@ body {
   opacity: 0.6;
   color: #fff;
   z-index: 9999;
+  font-size: 35px;
 }
 
 .btnNext:hover,
@@ -71,13 +72,13 @@ body {
 .sliderWrap .btnPrev {
   top: 50%;
   transform: translateY(-50%);
-  left: 40px;
+  left: 5px;
 }
 
 .sliderWrap .btnNext {
   top: 50%;
   transform: translateY(-50%);
-  right: 40px;
+  right: 5px;
 }
 
 .fullScreenImage {

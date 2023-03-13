@@ -44,10 +44,11 @@ const Portfolio = () => {
             <Image
               src={data[slideNumber].img}
               alt=""
+              onClick={() => setOpenModal(true)}
               width={400}
               height={200}
               className={
-                "object-cover w-[700px] h-[300px] md:h-[500px]  md:mt-0"
+                "object-cover absolute z-50 w-[700px] h-[300px] md:h-[500px]  md:mt-0"
               }
             />
           </div>
