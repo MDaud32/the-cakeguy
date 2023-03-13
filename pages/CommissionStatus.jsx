@@ -91,7 +91,7 @@ const CommissionStatus = () => {
   }
 
   return (
-    <div className="md:w-[73%] lg:w-[80%] ml-auto sm:px-8 lg:px-16 pt-10">
+    <div className="md:w-[77%] lg:w-[84%] ml-auto sm:px-8 lg:px-16 pt-10">
       <div className="flex flex-col md:flex-row px-3">
         <div className="md:w-[20%] w-full">
           <p className="text-center text-gray-500">Status Progression</p>
@@ -140,7 +140,7 @@ const CommissionStatus = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:pl-8 w-full md:w-[70%]">
+        <div className="flex flex-col md:pl-8 w-full md:w-[80%]">
           <p className="text-[12px] font-bold">
             Commission Work Week: Monday - Friday | Excluding Holidays
           </p>

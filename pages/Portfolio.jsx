@@ -105,7 +105,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className="md:w-[73%] lg:w-[80%] ml-auto sm:px-8 lg:px-16 pt-10">
+    <div className="md:w-[77%] lg:w-[84%] ml-auto sm:px-8 lg:px-16 pt-10">
       <div className="lg:columns-4 md:columns-3 sm:columns-2 columns-1 gap-3 mx-auto space-y-3 px-3">
         <Image
           src={"/images/image1.jpg"}
@@ -266,7 +266,7 @@ const Portfolio = () => {
                   leave="ease-in duration-200"
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95">
-                  <Dialog.Panel className="w-full  h-screen transform overflow-hidden bg-black/50 text-left align-middle shadow-xl transition-all ">
+                  <Dialog.Panel className="w-[80%] md:w-[60%] h-[60%] md:h-[80%] transform overflow-hidden bg-black/50 text-left align-middle shadow-xl transition-all pb-10">
                     <button
                       onClick={() => setIsOpen(false)}
                       className="text-white text-4xl flex ml-auto px-10 pt-4">
@@ -286,7 +286,7 @@ const Portfolio = () => {
                           width={400}
                           height={200}
                           className={
-                            "object-cover w-[700px] h-[500px] mt-12 md:mt-0"
+                            "object-cover w-[700px] h-[300px] md:h-[500px]  md:mt-0"
                           }
                           alt="green iguana"
                         />

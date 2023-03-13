@@ -14,7 +14,7 @@ import Dragon8 from "../public/dragon8.jpg";
 
 const About = () => {
   return (
-    <div className="md:w-[73%] lg:w-[80%] ml-auto sm:px-8 lg:px-16">
+    <div className="md:w-[77%] lg:w-[84%] ml-auto sm:px-8 lg:px-16">
       <div className="flex flex-col md:flex-row pt-20">
         {/* about me */}
         <div className="w-full md:w-[35%] ">
@@ -26,7 +26,7 @@ const About = () => {
           <h1 className="font-bold text-2xl text-center text-[#95AB60] italic">
             Hello?
           </h1>
-          <p className="mt-4 pr-4 mb-4 mx-auto text-base md:text-xs lg:text-md xl:text-sm text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
+          <p className="mt-4 pr-4 pl-4 mb-4 mx-auto text-base md:text-xs lg:text-md xl:text-sm text-gray-500 tracking-wide text-center lg:text-left md:tracking-tighter md:leading-tight md:text-left">
             I&apos;m Kristy, a Pennsylvania native who moved up to the beautiful
             snowy North Country in spring of 2017. I am a freelance illustrator
             who primarily works in watercolor, and Procreate. I also like to
