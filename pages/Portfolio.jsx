@@ -55,7 +55,7 @@ const Portfolio = () => {
         </div>
       )}
 
-      <div className="md:w-[77%] lg:w-[84%] xl:w-[1800px] 2xl:ml-96 xl:ml-64 ml-auto sm:px-8 lg:px-16 pt-10">
+      <div className="md:w-[77%] lg:w-[84%] 2xl:w-[1800px] 2xl:ml-96 ml-auto sm:px-8 lg:px-16 pt-10">
         <div className="lg:columns-4 md:columns-3 sm:columns-2 columns-1 gap-3 mx-auto space-y-3 px-3">
           {data.map((slide, index) => {
             return (
