@@ -14,10 +14,10 @@ import Dragon8 from "../public/dragon8.jpg";
 
 const About = () => {
   return (
-    <div className="md:w-[77%] lg:w-[84%] xl:w-[1300px] ml-auto xl:ml-64 sm:px-8 lg:px-16">
+    <div className="md:w-[77%] lg:w-[84%] xl:w-[1200px] 2xl:mx-auto ml-auto xl:ml-64 sm:px-8 lg:px-16">
       <div className="flex flex-col md:flex-row pt-20">
         {/* about me */}
-        <div className="w-full md:w-[35%] ">
+        <div className="w-full md:w-[35%]">
           <Image
             src={Logo}
             alt="about logo"
