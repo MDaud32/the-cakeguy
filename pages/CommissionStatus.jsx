@@ -1,3 +1,4 @@
+import ScrollButton from "@/components/ScrollTop";
 import React, { useEffect, useState } from "react";
 import DataTable from "react-data-table-component";
 import { AiFillStar } from "react-icons/ai";
@@ -165,6 +166,9 @@ const CommissionStatus = () => {
           customStyles={customStyles}
           // progressPending={loading}
         />
+      </div>
+      <div className="md:-ml-56">
+        <ScrollButton />
       </div>
     </div>
   );
