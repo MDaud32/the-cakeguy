@@ -56,7 +56,7 @@ const About = () => {
             <Image
               src={Dragon2}
               alt="about page img 1"
-              className="lg:h-[200px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
+              className="lg:h-[200px] h-[280px] lg:w-[220px] md:h-[130px] md:w-[130px] rounded-md object-cover transition-transform duration-500 transform-gpu hover:scale-105"
             />
             <Image
               src={Dragon4}
