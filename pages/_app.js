@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
 import Layout from "@/components/Layout";
 import { AnimatePresence, motion } from "framer-motion";
+import { ThemeProvider } from "next-themes";
 
 export default function App({ Component, pageProps, router }) {
   return (
@@ -36,8 +37,10 @@ export default function App({ Component, pageProps, router }) {
         }}>
         <div>
           <Layout>
-            <Navbar />
-            <Component {...pageProps} />
+            <ThemeProvider enableSystem={true} attribute="class">
+              <Navbar />
+              <Component {...pageProps} />
+            </ThemeProvider>
           </Layout>
         </div>
       </motion.div>

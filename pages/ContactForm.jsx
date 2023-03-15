@@ -44,7 +44,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="md:w-[73%] lg:w-[96] ml-auto sm:px-8 lg:px-12 mt-8 flex flex-col md:flex-row">
+    <div className="md:w-[73%] lg:w-[96] 2xl:w-[800px] 2xl:ml-72 ml-auto sm:px-8 lg:px-12 mt-8 flex flex-col md:flex-row">
       <div className="md:mr-8 w-[80%] md:w-[30%] space-y-3 mx-auto md:mx-0">
         <Image src={contact} alt="contact" className="w-64 mx-auto" />
         <p className="text-[12px] font-semibold text-center ">

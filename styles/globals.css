@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   background-image: radial-gradient(#e3e8da 1px, #fcfcfc 0);
   background-size: 28px 28px;
   background-position: -19px -19px;
-}
+} */
 /* .galleryWrap {
   display: flex;
   flex-wrap: wrap;
