@@ -12,7 +12,7 @@ import logo2 from "../public/logo2.png";
 
 const Commission = () => {
   return (
-    <div className="md:w-[77%] lg:w-[84%] ml-auto sm:px-8 lg:px-16 pt-10">
+    <div className="md:w-[77%] lg:w-[84%] ml-auto sm:px-8 lg:px-16 pt-10 dark:text-gray-500">
       <p className="text-center tracking-[6px]">COMMISSION INFORMATION</p>
       <p className="text-[12px] mt-4">
         Before placing an order with me, please read my Terms of Service below.

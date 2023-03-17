@@ -1,32 +1,61 @@
 import ScrollButton from "@/components/ScrollTop";
 import React, { useEffect, useState } from "react";
-import DataTable from "react-data-table-component";
+import DataTable, { createTheme } from "react-data-table-component";
 import { AiFillStar } from "react-icons/ai";
+import { useTheme } from "next-themes";
 
-const customStyles = {
-  rows: {
-    style: {
-      minHeight: "30px",
-      backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
-      backgroundSize: "28px 28px",
-      backgroundPosition: "-19px -19px",
-      fontSize: "11px",
+createTheme(
+  "solarized",
+  {
+    text: {
+      primary: "#fff333",
+    },
+    background: {
+      default: "#FFF",
+    },
+    context: {
+      background: "#cb4b16",
+      text: "#FFFFFF",
     },
   },
-
-  headCells: {
-    style: {
-      backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
-      backgroundSize: "28px 28px",
-      backgroundPosition: "-19px -19px",
-    },
-  },
-};
+  ("dark",
+  {
+    background: {},
+  })
+);
 
 const CommissionStatus = () => {
   // const [data, setData] = useState();
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(10);
+  const { systemTheme, theme, setTheme } = useTheme();
+
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
+  const customStyles = {
+    rows: {
+      style: {
+        minHeight: "30px",
+        // backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
+        // backgroundSize: "28px 28px",
+        // backgroundPosition: "-19px -19px",
+        fontSize: "11px",
+        background: [currentTheme === "dark" ? "#121212" : "#fff"],
+        color: [currentTheme === "dark" ? "#fff" : "#121212"],
+      },
+    },
+
+    headCells: {
+      style: {
+        background: [currentTheme === "dark" ? "#121212" : "#fff"],
+        color: [currentTheme === "dark" ? "#fff" : "#121212"],
+        // background: {currentTheme === "dark" ? "#000" : '#fff'}
+        // backgroundImage: "radial-gradient(#e3e8da 1px, #fcfcfc 0)",
+        // backgroundSize: "28px 28px",
+        // backgroundPosition: "-19px -19px",
+      },
+    },
+  };
 
   const columns2 = [
     {
@@ -141,7 +170,7 @@ const CommissionStatus = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:pl-8 w-full md:w-[80%]">
+        <div className="flex flex-col md:pl-8 w-full md:w-[80%] dark:text-gray-500">
           <p className="text-[12px] font-bold">
             Commission Work Week: Monday - Friday | Excluding Holidays
           </p>
@@ -152,6 +181,7 @@ const CommissionStatus = () => {
             columns={columns2}
             data={data2}
             customStyles={customStyles}
+            // theme={currentTheme === "dark" ? "dark" : "solarized"}
           />
         </div>
       </div>
@@ -164,6 +194,7 @@ const CommissionStatus = () => {
           data={data}
           className=""
           customStyles={customStyles}
+          // theme={currentTheme === "dark" ? "dark" : "solarized"}
           // progressPending={loading}
         />
       </div>
