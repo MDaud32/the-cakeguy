@@ -13,15 +13,15 @@ const Navbar = () => {
 
     if (currentTheme === "dark") {
       return (
-        <div className="" onClick={() => setTheme("light")}>
+        <button className="" onClick={() => setTheme("light")}>
           Light Mode
-        </div>
+        </button>
       );
     } else {
       return (
-        <div className="" onClick={() => setTheme("dark")}>
+        <button className="" onClick={() => setTheme("dark")}>
           Dark Mode
-        </div>
+        </button>
       );
     }
   };
@@ -66,9 +66,9 @@ const Navbar = () => {
             className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             Contact
           </Link>
-          <button className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
+          <div className="border-[1px] border-gray-400 rounded-full hover:border-[#95AB60] hover:text-[#95AB60] text-gray-400 font-extralight text-sm">
             {renderThemeChanger()}
-          </button>
+          </div>
         </div>
       </aside>
     </div>
